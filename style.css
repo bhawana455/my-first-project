@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+
+}
+header{
+ background-image: url(tj-holowaychuk-iGrsa9rL11o-unsplash.jpg);
+ height: 100vh;
+ background-size:80% 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+ul{
+   float: right;
+   list-style-type: none;
+    margin-top: 25px ;
+}
+ul li{
+    
+    display: inline-block; 
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    border: 1px solid #886868;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color:plum;  
+   color:brown;
+}
+.logo img{
+    float: left;
+    width: 150px ;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
