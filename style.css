@@ -6,8 +6,8 @@
 }
 header{
  background-image:linear-gradient(rgba(95, 80, 80, 0.5),rgba(95, 89, 89, 0.5)),url(tj-holowaychuk-iGrsa9rL11o-unsplash.jpg);
- height: 100vh;
  background-size:100% 100%;
+ height: 100vh;
  background-repeat: no-repeat;
  background-position: center;
 }
@@ -35,7 +35,7 @@ ul li a:hover{
     float: left;
     width: 90px ;
     height: 90px;
-    border-radius: 10px;
+    border-radius: 50%;
     padding:5px;
 }
 .main{
@@ -77,4 +77,36 @@ flex-direction: row;
     background-color:white;  
    color:brown;
    transition: 0.6s ease;
+}
+@media only screen and (max-width: 830px)
+{
+    ul li a{
+    
+       padding: 3px 10px;
+
+     }
+     .logo img{
+        width: 60px ;
+        height: 60px;
+        border-radius: 50%;
+        padding:5px;
+    }
+    .title h1{
+      
+        font-size: 40px;
+       
+    } 
+    .btn{
+        
+        padding: 5px 5px;
+        font-size: 15px;
+        
+        
+    }
+   header{
+
+        background-size:1500px
+        
+       }
+
 }
