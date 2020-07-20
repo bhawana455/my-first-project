@@ -5,7 +5,7 @@
 
 }
 header{
- background-image: url(tj-holowaychuk-iGrsa9rL11o-unsplash.jpg);
+ background-image:linear-gradient(rgba(95, 80, 80, 0.5),rgba(95, 89, 89, 0.5)),url(tj-holowaychuk-iGrsa9rL11o-unsplash.jpg);
  height: 100vh;
  background-size:100% 100%;
  background-repeat: no-repeat;
@@ -41,4 +41,40 @@ ul li a:hover{
 .main{
     max-width: 1200px;
     margin: auto;
+}
+.title
+{
+position: absolute;
+top: 50%;
+left: 50% ;
+transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: whitesmoke;
+    font-size: 70px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.button{
+
+position: absolute;
+top: 60%;
+left: 50% ;
+transform: translate(-50%,-50%);
+display:flex;
+flex-direction: row;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.btn:hover{
+    background-color:white;  
+   color:brown;
+   transition: 0.6s ease;
 }
