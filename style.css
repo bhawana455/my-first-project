@@ -21,7 +21,7 @@ ul li{
     display: inline-block; 
 }
 ul li a{
-    text-decoration: none;
+    text-decoration: none; 
     color: red;
     padding: 5px 20px;
     border: 1px solid #886868;
